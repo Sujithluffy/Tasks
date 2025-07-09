@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Html tags</title>
+</head>
+<body>
+
+    <p> <b>This is a bold word inside a paragraph</b> </p>
+    <p><strong>This is a strongword inside a paragraph.</strong> </p>
+    <p><small>This is a smallword inside a paragraph.</small> </p>
+
+</body>
+</html>
