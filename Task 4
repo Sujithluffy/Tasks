@@ -1,0 +1,56 @@
+1.internal css :
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: red;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>This is a Heading</h1>
+</body>
+</html>
+output:
+This is a Heading
+
+2.external css:
+css
+p {
+  color: blue;
+  font-size: 18px;
+}
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>This is a paragraph.</p>
+</body>
+</html>
+output:
+This is a paragraph.
+
+3.inline css:
+<p style="color: green; font-weight: bold;">This is inline styled text.</p>
+output:
+This is inline styled text.
+
+4. hr tag:
+<p>Above Line</p>
+<hr>
+<p>Below Line</p>
+output :
+Above Line
+-------------------------
+Below Line
+
+5. br tag :
+<p>Hello<br>World</p>
+output :
+Hello
+World
